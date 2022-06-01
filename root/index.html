@@ -16,6 +16,8 @@
     <h2>第一个pwa</h2>
     <img src="../img/img.png" />
     <script type="module">
+      import './vconsole.js';
+      new VConsole()
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker
           .register('sw2.js')
